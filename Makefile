@@ -1,4 +1,4 @@
-all: hello fahr i2o nc
+all: hello fahr i2o nc nl
 
 hello:
 	gcc hello.c -o hello
@@ -11,6 +11,9 @@ i2o:
 
 nc:
 	gcc nc.c -o nc
+
+nl:
+	gcc nl.c -o nl
 
 clean:
 	rm *.exe
