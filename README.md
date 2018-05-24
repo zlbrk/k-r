@@ -5,3 +5,15 @@
 ---
 Exercises with the code from "The C Programming Language"
 Book by Brian Kernighan and Dennis Ritchie
+
+# ОПИСАНИЕ ПРОГРАММ
+***
+1. hello -- выводит традиционное приветствие
+2. i2o -- копирует входной поток в выходной
+3. nc -- подсчитывает количество символов во входном потоке
+
+## Пример использования i2o для копирования файлов
+cat file1 | i2o > file2
+
+## Пример использования nc для подсчета символов в файле
+cat file1 | nc
