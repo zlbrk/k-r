@@ -13,10 +13,16 @@ Book by Brian Kernighan and Dennis Ritchie
 4. nl &mdash; подсчитывает количество строк во входном потоке, даже если каретка ни разу не переводится (например, файл содержит всего одно слово)
 
 ## Пример использования i2o для копирования файлов
-cat file1 | i2o > file2
+```console
+zlbrk@dell:~$ cat file1 | i2o > file2
+```
 
 ## Пример использования nc для подсчета символов в файле
-cat file1 | nc
+```console
+zlbrk@dell:~$ cat file1 | nc
+```
 
 ## Пример использования nl для подсчета строк в файле
-cat file1 | nl
+```console
+zlbrk@dell:~$ cat file1 | nl
+```
