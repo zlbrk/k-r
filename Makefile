@@ -15,5 +15,8 @@ nc:
 nl:
 	gcc nl.c -o nl
 
+wc:
+	gcc wc.c -o wc
+
 clean:
 	rm *.exe
