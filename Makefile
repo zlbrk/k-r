@@ -1,4 +1,4 @@
-all: hello fahr i2o nc nl stat
+all: hello fahr i2o nc nl stat power
 
 hello:
 	gcc hello.c -o hello
@@ -21,6 +21,8 @@ wc:
 stat:
 	gcc stat.c -o stat
 
+power:
+	gcc power.c -o power
 
 clean:
 	rm *.exe
