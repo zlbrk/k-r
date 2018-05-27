@@ -28,7 +28,7 @@ char:
 	gcc char.c -o char
 
 extv:
-	gcc extv.c -0 extv
+	gcc extv.c -o extv
 
 clean:
 	rm *.exe
